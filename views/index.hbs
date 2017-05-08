@@ -20,6 +20,13 @@
               <div>Loser</div>
               <div>Date</div>
             </div>
+            {{#each data}}
+            <div class="tableKey">
+              <div>{{this.winner_id}}</div>
+              <div>{{this.loser_id}}</div>
+              <div>{{this.date}}</div>
+            </div>
+            {{/each }}
           </div>
           <div class="tableDisplay">
             <div class="tableHeader">Player History</div>

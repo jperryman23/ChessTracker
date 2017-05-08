@@ -10,12 +10,12 @@ app.get('/', (req, res) => {
 
 
   linkQuery.getMatches()
-        .then(data => {
-            console.log(data);
-          res.render('index', {
-            data
-          })
-        })
+    .then(data => {
+      console.log(data);
+      res.render('index', {
+        data
+      })
+    })
 })
 
 app.use('/', express.static('public'))
