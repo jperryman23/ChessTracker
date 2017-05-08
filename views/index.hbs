@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Chess Tracker</title>
         <link rel="stylesheet" href="main.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     </head>
     <body>
       <header>
@@ -12,6 +13,10 @@
       </header>
         <hr />
       <main>
+        <section class="btnDiv">
+          <button id="addPlayer">Add a player</button>
+          <button id="addGame">Add a game</button>
+        </section>
         <section class="wrapper">
           <div class="tableDisplay">
             <div class="tableHeader">Recent Matches</div>
@@ -39,6 +44,11 @@
             </div>
           </div>
         </section>
+
+        <section id="modalBody">
+
+        </section>
       </main>
+    <script src="main.js"></script>
     </body>
 </html>

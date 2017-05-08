@@ -4,17 +4,23 @@ header{
   justify-content: space-between;
 }
 main{
-  border:1px solid black;
   display:flex;
   justify-content: center;
+  flex-direction: column;
 
   width:90vw;
 }
 
+.btnDiv{
+  display:flex;
+  justify-content: space-around;
+}
 .wrapper{
   display:flex;
   justify-content: space-between;
-  width:100%
+  width:100%;
+
+  margin-top:20px;
 }
 .tableDisplay{
   /*border:1px solid black;*/
@@ -32,4 +38,16 @@ main{
   border:1px solid black;
   display: flex;
   justify-content: space-around;
+}
+
+#modalBody{
+  display:none;
+  position:fixed;
+  background-position: center;
+  z-index: 1;
+
+  background-color: grey;
+  width:400px;
+  height:400px;
+
 }
