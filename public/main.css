@@ -1,20 +1,45 @@
 
+
 header{
   display:flex;
   justify-content: space-between;
+  background-color: rgb(85, 82, 82);
 }
 main{
   display:flex;
   justify-content: center;
   flex-direction: column;
-
   width:90vw;
+  margin-left: 50px;
+
+}
+
+.background-image {
+background-image: url("chessbackground.jpg");
+height: 78vh;
+background-size: cover;
+background-repeat: no-repeat;
+opacity: .85;
+width:90vw;
+}
+
+.headerTitle{
+    margin-left: 30px;
+    color: white;
+}
+.toptabs{
+    margin-right: 20px;
+    color: white;
 }
 
 .btnDiv{
   display:flex;
   justify-content: space-around;
+  background-color: rgb(96, 96, 96);
+  height: 30px;
+  align-items: center;
 }
+
 .wrapper{
   display:flex;
   justify-content: space-between;
@@ -33,6 +58,7 @@ main{
   border:1px solid black;
   display: flex;
   justify-content: center;
+  text-shadow: 0 0 black;
 }
 .tableKey{
   border:1px solid black;
@@ -49,5 +75,32 @@ main{
   background-color: grey;
   width:400px;
   height:400px;
+}
 
+.copywrite{
+    margin-left: 50px;
+}
+
+.production{
+    margin-right: 50px;
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(85, 82, 82);
+    height: 40px;
+    align-items: center;
+}
+
+button{
+    /*background-color: rgb(108, 108, 108);*/
+    color: black;
+    width: 120px;
+    font-weight: bold;
+}
+
+
+button:hover {
+    color: rgb(14, 98, 166)
 }

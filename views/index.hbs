@@ -2,24 +2,25 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Chess Tracker</title>
+        <title>The Chess Tracker</title>
         <link rel="stylesheet" href="main.css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     </head>
     <body>
       <header>
-        <h2>header title</h2>
-        <h3>other stuff, stuff, stuff</h3>
+        <h2 class="headerTitle">Chess Tracker</h2>
+        <h3 class="toptabs"> Home &nbsp;&nbsp; | &nbsp; About &nbsp;&nbsp; | &nbsp; Contact &nbsp;&nbsp;</h3>
       </header>
         <hr />
       <main>
+          <div class="background-image">
         <section class="btnDiv">
           <button id="addPlayer">Add a player</button>
           <button id="addGame">Add a game</button>
         </section>
         <section class="wrapper">
           <div class="tableDisplay">
-            <div class="tableHeader">Recent Matches</div>
+            <div class="tableHeader">---------- Recent Matches ----------</div>
             <div class="tableKey">
               <div>Winner</div>
               <div>Loser</div>
@@ -34,7 +35,7 @@
             {{/each }}
           </div>
           <div class="tableDisplay">
-            <div class="tableHeader">Player History</div>
+            <div class="tableHeader">---------- Player History ----------</div>
             <div class="tableKey">
               <div>Player name</div>
               <div>Total games</div>
@@ -48,7 +49,14 @@
         <section id="modalBody">
 
         </section>
+    </div>
       </main>
+
+      <hr />
+      <footer>
+          <div class="copywrite"> &copy; The Chess Tracker </div>
+          <div class="production"> A Perryman-Fred Production</div>
+      </footer>
     <script src="main.js"></script>
     </body>
 </html>

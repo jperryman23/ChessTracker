@@ -24,8 +24,6 @@ var matchData = []
 })
 
 function allData(match, names){
-
-
 }
 
 app.use('/', express.static('public'))

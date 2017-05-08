@@ -12,7 +12,24 @@ exports.seed = function(knex, Promise) {
           {
               first_name: 'Jordan',
               last_name: 'Fred',
-          }
+          },
+          {
+            first_name: 'Brent',
+            last_name: 'theGuy',
+          },
+          {
+              first_name: 'Jackson',
+              last_name: 'Donvan',
+          },
+          {
+            first_name: 'Coulter',
+            last_name: 'FreREEEE',
+          },
+          {
+              first_name: 'Tristan',
+              last_name: 'Gilford',
+          },
+
       ]);
     });
 };
