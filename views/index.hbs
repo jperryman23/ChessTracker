@@ -42,6 +42,14 @@
               <div>Loses</div>
               <div>Record</div>
             </div>
+            {{#each data.players}}
+            <div class="tableKey">
+              <div>{{this.name}}</div>
+              <div>{{this.total}}</div>
+              <div>{{this.wins}}</div>
+              <div>{{this.loses}}</div>
+            </div>
+            {{/each }}
           </div>
         </section>
 
