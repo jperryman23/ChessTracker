@@ -25,10 +25,10 @@
               <div>Loser</div>
               <div>Date</div>
             </div>
-            {{#each data}}
+            {{#each data.games}}
             <div class="tableKey">
-              <div>{{this.winner_id}}</div>
-              <div>{{this.loser_id}}</div>
+              <div>{{this.winner}}</div>
+              <div>{{this.loser}}</div>
               <div>{{this.date}}</div>
             </div>
             {{/each }}
