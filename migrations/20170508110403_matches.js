@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
       table.increments()
       table.integer("winner_id").references('id').inTable('players')
       table.integer("loser_id").references('id').inTable('players')
-      table.date('date')
+      table.text('date')
   })
 };
 

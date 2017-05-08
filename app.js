@@ -27,6 +27,7 @@ var matchData = []
 })
 
 function allData(match, names){
+
   var players = []
   var games = []
 
@@ -69,6 +70,7 @@ function allData(match, names){
   }
 
   return returnObj
+
 
 }
 
